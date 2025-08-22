@@ -8,6 +8,3 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
-
-
-// 3 main steps will be import, create, and export 
