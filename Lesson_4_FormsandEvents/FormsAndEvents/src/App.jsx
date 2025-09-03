@@ -6,9 +6,9 @@ import RegistrationFormUncontrolled from "./components/RegistrationFormUncontrol
 const App = () => {
   return (
     <>
-      <Event />
-      {/* <RegistrationForm/> */}
-      {/* <RegistrationFormUncontrolled/> */}
+      {/* <Event /> */}
+      <RegistrationForm/> 
+       {/* {* <RegistrationFormUncontrolled/>  */} 
     </>
   );
 };

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import FormInput from "./FromInput";
+import FormInput from "./FormInput";
 
 const RegistrationForm = () => {
   const [formData, setFormData] = useState({
