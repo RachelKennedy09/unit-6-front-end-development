@@ -12,7 +12,8 @@ const AppRoutes = () => {
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="profile/:username" element={<Profile />} />
-      <Route path="*" element={<NotFound />} />
+      {/* * matches any path you haven't shown about, perfect for a not found page */}
+           <Route path="*" element={<NotFound />} />
     </Route>
   );
 
