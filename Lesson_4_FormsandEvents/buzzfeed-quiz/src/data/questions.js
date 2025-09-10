@@ -1,4 +1,7 @@
 // quiz data
+// This file ONLY holds data. No React here.
+// Each question has a unique "id", display "text", and multiple "options".
+// Each option has a "value" (used for scoring) and a "label" (what the user sees).
 
 export const QUESTIONS = [
   {

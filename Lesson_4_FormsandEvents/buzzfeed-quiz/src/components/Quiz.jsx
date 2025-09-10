@@ -1,4 +1,5 @@
 // src/components/Quiz.jsx
+//The form UI. It shows questions and controls the radio buttons using props/state from the parent.
 import React from "react";
 
 /**
